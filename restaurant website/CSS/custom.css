@@ -1,0 +1,376 @@
+/* Custom Css */
+body{
+    position: relative;
+   padding-top: 5rem;
+}
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+/* Navbar */
+
+.bg-dark {
+    background-color: #343a40!important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+    
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    border-bottom: 2px solid #fff;
+    
+    
+}
+.active{
+    border-bottom: 2px solid #fff;
+    color: rgba(255,255,255,.5);
+}
+/* Carousel */
+
+.carousel-caption {
+    padding-bottom: 12%;
+}
+.carousel-caption h3 {
+    font-size: 42px;
+    font-weight: bold;
+}
+#Green-text {
+    font-size: 20px;
+    color: #2fef3e;
+}
+.carousel-caption p {
+    font-size: 20px;
+    color: #2fef3e;
+}
+.lead{
+    color: black;
+    font-size: 15px;
+    
+}
+#bold{
+    color: black;
+    font-size: 16px;    
+}
+
+/* Butttons */
+
+.btn-info{
+    background-color: #52c8db;
+    padding: .75rem 2rem;
+    border: 3px solid transparent;
+}
+.btn-info:hover{
+    background-color: transparent;
+    border: 3px solid #52c8db;
+    color: #52c8db;
+    box-shadow: 5px 5px 15px #444;
+}
+.btn-info:active{
+    background-color: transparent !important;
+   border: 2px solid #52c8db !important;
+    color: #52c8db !important;
+    box-shadow: 5px 5px 15px #444;
+}
+.btn-lg{
+    line-height: 1.0;
+}
+/* Specials */
+.specials{
+    background-color: black;
+    padding: 50px 5px;
+}
+.specials h4 {
+    color: #fff;
+}
+/* Team */
+#team {
+    padding: 50px 10px;
+    background: linear-gradient(#919495, #ba8119);
+}
+#textcolor00{
+    color: #3d0e4d!important;
+}
+#team07{
+    font-size: 15px;
+    color: #661f5d;
+}
+/* Video Background*/
+
+.wclb{
+    padding-top: 180px;
+}
+.wclb text-light{
+    color: #2f3c04
+}
+/* Menu */
+#menu {
+    padding: 25px 10px;
+}
+#textcolor01 {
+    font-size: 15px;
+    color: #062808;
+}
+#textcolor02{
+    font-size: 15px;
+    color: #afcabb;
+}
+.card{
+    box-shadow: 2px 5px 20px #777;
+
+}
+.modal-content{
+    background: #343a40;
+}
+.mn{
+    color: #fff;
+}
+.card-body {
+    padding: 1rem;
+}
+/* Parallax */
+.wtitle{
+    padding: 150px 20px;
+    color: white;
+}
+#plx{
+    background: url(../img/B_img2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wtitle h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+/* Wine list */
+#wines{
+ height: 920px;
+    background: #343a40; 
+}
+#textcolor03{
+    font-size: 18px;
+    color: #b3d7ff;
+
+}
+#textcolor04{
+    color: #17a2b8;
+}
+.wtitle h3 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#table01{
+  padding: 60px 20px;
+
+}
+.wlt{
+    padding: 20px;
+}
+.table{
+    color: #c4cad0;
+}
+/* Jumbotron */
+#jumbo {
+    background: #e9ecef ;
+}
+#buttonSize{
+    font-size: 1.25rem;
+    line-height: 1;
+    border-radius: .3rem;
+    width: 190px;
+}
+.jumbotron {
+    padding: 3rem 2rem;
+}
+.display-3 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: sans-serif;
+    }
+
+/* Cards */
+.card-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #f5f0e6;
+ 
+}
+.ovl{
+    opacity: 0;
+    transition: 1s;
+}
+.ovl:hover{
+    opacity: 1;
+    background: rgb(0,0,0,0.6);
+}
+/* Locations  */
+#locations{
+    padding: 100px 50px;
+    
+ background: url(../img/map.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loc img {
+    margin-right: 10px;
+    transition-duration: 1.5s;
+    
+}
+
+.loc img:hover{
+    transform: scale(3,3);
+    box-shadow: 5px 5px 15px #333;
+    z-index:1;
+    position: absolute;
+}
+/* Testimonials */
+#testimonails{
+    background: #2b2b2b;
+}
+.revs{
+    padding: 75px;
+}
+.active{
+    border: none;
+}
+.carousel-inner{
+    min-height: 300px;
+}
+
+/* Video Section */
+#vid{
+    padding: 100px 0px;
+    background: #333;
+}
+#textcolor05 {
+    font-size: 15px;
+    color: #d6ebd7;
+}
+/* Hireing */
+.jumbotron {
+    margin-bottom: 0;
+}
+.hir h1 {
+    text-shadow: 5px 5px 10px #555;
+}
+/* Pop up Box */
+.pop-box{
+    width: 300px;
+    box-shadow: 5px 10px 25px #555;
+    position: fixed;
+    z-index: 9999;
+    right: -295px;
+    bottom: 5%;
+    -moz-transition: 0.7s ease-in-out;
+    -webkit-transition: 0.7s ease-in-out;
+}
+.pop{
+    background:#88783a;
+    margin-left: -47px;
+    margin-top: -20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 5px 10px 25px #555;
+    width: 370px;
+}
+.pop img{
+    padding right: 70px;
+    
+}
+.pop-box:hover{
+    right: 0px;
+}
+/* Number counter*/
+#numbers {
+    padding: 100px 0px;
+    background: #343a40; 
+         }
+.numc{
+    background: #fff;
+    height: 150px;
+    width: 150px;
+    padding-top: 50px;
+    border-radius: 65%;
+     font-size: 40px;
+}
+.numd{
+        padding-top: 25px;
+}
+
+/* Contact */
+#contact {
+    padding: 100px 0px;
+    box-shadow: 5px 10px 25px #555;
+    position: relative;
+    z-index: 22;
+}
+#Buttton-algin{
+    margin-top: 110px;
+}
+/* Footer Area */
+#footer{
+    background: #333;
+    padding: 10px;
+}
+.cpt{
+    padding-top: 35px;
+    font-size: 15px;
+    margin-left: 0px;
+}
+.ftaw i{
+    
+    padding-top : 25px;
+    padding-bottom : 25px;
+    padding-left: 19px;
+    font-size: 40px;
+    color: #86b7c6;
+}
+.ftaw i:hover{
+    color: #2463a7;
+}
+/* Back to Top */
+.btt  {
+    background: #88783a5e;
+    width: 54px;
+    position: fixed;
+    right: -3px;
+    bottom: 30px;
+    border: 2px solid #fff;
+    z-index: 9998;
+    border-radius: 10px;
+    box-shadow: 5px 10px 25px #555;
+}
+.btt:hover{
+    background: #88783a;
+    box-shadow: 5px 10px 25px #555;
+}
+.btt i{
+    
+    font-size: 45px;
+    color: #240707;
+    padding: 7px;
+}
+.btt i:hover{
+    color: #000000;
+}
+
+.hide {
+  opacity: 0;
+  right: -3px;
+}
+.show {
+  opacity: 1;
+ right: 0px;
+}
+/* Media Queries */
+@media only screen and (max-width:991px){
+    .blogo {
+        text-align: center;
+    }
+}
